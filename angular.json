@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "akitaAPP"
+    }
+  },
+  "defaultProject": "akitaAPP",
+  "cli": {
+    "defaultCollection": "@datorama/akita"
+  }
 }
