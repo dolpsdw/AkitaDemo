@@ -6,10 +6,14 @@ import { AppComponent } from './app.component';
 import { NG_ENTITY_SERVICE_CONFIG } from '@datorama/akita-ng-entity-service';
 import { AkitaNgDevtools } from '@datorama/akita-ngdevtools';
 import { environment } from '../environments/environment';
+import { BetListComponent } from './bet-list/bet-list.component';
+import { BetLineComponent } from './bet-line/bet-line.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BetListComponent,
+    BetLineComponent
   ],
   imports: [
     BrowserModule,
