@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
 import { ListState} from './list.model';
-import { EntityState, EntityStore, StoreConfig } from '@datorama/akita';
+import { EntityStore, StoreConfig } from '@datorama/akita';
 import {BetLine} from '../../bet-line/store/betLine.model';
 
 
-
+// Store definition + basic setters that will be used on list.service. APP will access list.service but not store. Querys can protected inject the store.
 @Injectable({ providedIn: 'root' })
 @StoreConfig({
   name: 'list', // Name of the store

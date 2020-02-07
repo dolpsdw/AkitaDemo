@@ -1,6 +1,6 @@
 
 import { BetLine } from '../../bet-line/store/betLine.model';
-import {EntityState} from '@datorama/akita';
+import { EntityState } from '@datorama/akita';
 
 export interface ListState extends EntityState<ListItem> {
   // Here goes common propertys for all the list
